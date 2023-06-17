@@ -53,9 +53,13 @@ li {
   align-items: flex-start;
   background-image: url(/assets/background.jpg);
   color: white;
-
 }
 
+.image > img {
+  height: 180px;
+  border-radius: 50%;
+  margin: 3vmin 10vmin;
+}
 .project-container {
   margin: 5vmin;
 }
