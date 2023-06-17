@@ -2,8 +2,9 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: rgb(49, 46, 136);
-  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(165, 199, 194);
+  color: rgb(3, 3, 3);
 }
 
 nav {
@@ -18,14 +19,19 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  margin: 2vmin;
+}
+
+li {
+  margin: 0 1vmin;
 }
 
 .icon {
-  height: 32px;
+  height: 28px;
 }
 
 .header, .about, .projects, .contact {
-  height: 300px
+  height: 400px
 }
 
 .about, .projects, .contact, form {
@@ -38,4 +44,18 @@ ul {
 .content {
   display: flex;
   flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(/assets/background.jpg);
+  color: white;
+
+}
+
+.project-container {
+  margin: 5vmin;
 }
