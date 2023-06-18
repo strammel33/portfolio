@@ -3,8 +3,8 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: 'Titillium Web', sans-serif;
-  background-color: rgb(165, 199, 194);
-  color: rgb(3, 3, 3);
+  background-color: rgba(1, 16, 50, 0.954);
+  color: white;
 }
 
 nav {
@@ -26,12 +26,41 @@ li {
   margin: 0 1vmin;
 }
 
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+h2 {
+  font-size: 2em;
+  letter-spacing: .1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  letter-spacing: .1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+  text-align: justify;
+}
+
 .icon {
   height: 28px;
 }
 
 .header, .about, .projects, .contact {
-  height: 400px
+  height: 40%;
 }
 
 .about, .projects, .contact, form {
@@ -41,7 +70,7 @@ li {
   align-items: center;
 }
 
-.content {
+.about {
   display: flex;
   flex-direction: row;
 }
@@ -52,14 +81,41 @@ li {
   justify-content: center;
   align-items: flex-start;
   background-image: url(/assets/background.jpg);
-  color: white;
+}
+
+.header > h1, h3 {
+  margin: 0 5vmin;
 }
 
 .image > img {
   height: 180px;
   border-radius: 50%;
-  margin: 3vmin 10vmin;
+  margin: 3vmin 8vmin;
 }
+
+.description > h3, p {
+  margin: 0 3vmin 3vmin 0;
+}
+
+.projects {
+  width: 100%;
+}
+
+.project-tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-container {
+  height: 300px;
+  width: 250px;
   margin: 5vmin;
+  box-shadow: black;
+}
+
+.project-container > img {
+  width: 100%;
 }
