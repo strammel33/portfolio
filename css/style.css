@@ -35,6 +35,7 @@ h1 {
 h2 {
   font-size: 2em;
   letter-spacing: .1em;
+  margin: 2vmin;
 }
 
 h3 {
@@ -67,7 +68,7 @@ a {
 }
 
 .header, .about, .contact {
-  height: 30%;
+  height: 25%;
 }
 
 .about, .projects, .contact, form {
@@ -105,13 +106,9 @@ a {
 }
 
 .projects {
-  height: 65%;
+  height: 60%;
   width: 100%;
-  background-color: rgba(240, 248, 255, 0.354);
-}
-
-.projects > h2 {
-  margin: 2vmin;
+  background-image: url(/assets/background2.jpg)
 }
 
 .project-tiles {
@@ -128,7 +125,7 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 400px;
-  width: 300px;
+  width: 350px;
   margin: 5vmin;
   background-color: rgba(240, 248, 255, 0.43);
   border-radius: 3vmin;
@@ -150,4 +147,22 @@ a {
 
 .git-link {
   margin: 1vmin 1vmin 1vmin auto;
+}
+
+form {
+  justify-content: space-evenly;
+  height: 300px;
+  width: 250px;
+}
+
+form > input, textarea {
+  width: 100%;
+  height: 2em;
+  border: 1.5px solid rgba(0, 132, 255, 0.804);
+  border-radius: 3px;
+}
+
+textarea {
+  height: 10em;
+  font-family: 'Titillium Web', sans-serif;
 }
