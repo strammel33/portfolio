@@ -47,20 +47,27 @@ h4 {
   font-size: 1.5em;
   letter-spacing: .1em;
   font-weight: 300;
+  margin: 1vmin;
 }
 
 p {
   font-size: 1em;
+  letter-spacing: .07em;
   font-weight: 300;
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .icon {
   height: 28px;
 }
 
-.header, .about, .projects, .contact {
-  height: 40%;
+.header, .about, .contact {
+  height: 30%;
 }
 
 .about, .projects, .contact, form {
@@ -98,7 +105,13 @@ p {
 }
 
 .projects {
+  height: 65%;
   width: 100%;
+  background-color: rgba(240, 248, 255, 0.354);
+}
+
+.projects > h2 {
+  margin: 2vmin;
 }
 
 .project-tiles {
@@ -110,12 +123,31 @@ p {
 }
 
 .project-container {
-  height: 300px;
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 300px;
   margin: 5vmin;
-  box-shadow: black;
+  background-color: rgba(240, 248, 255, 0.43);
+  border-radius: 3vmin;
+  box-shadow: 5px 5px black;
 }
 
 .project-container > img {
-  width: 100%;
+  width: 95%;
+  margin: 1vmin;
+  border-radius: 2vmin;
+  border: solid black 1.5px;
+}
+
+.project-container > p {
+  margin: 1vmin 2vmin;
+  text-align: justify;
+  font-size: .8em;
+}
+
+.git-link {
+  margin: 1vmin 1vmin 1vmin auto;
 }
