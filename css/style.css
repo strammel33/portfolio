@@ -18,7 +18,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(1, 16, 50, 0.698);
+  background-color: rgba(0, 104, 202, 0.819);
 }
 
 ul {
@@ -28,7 +28,7 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 2vmin;
+  margin: 1vmin;
 }
 
 li {
@@ -69,11 +69,16 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(0, 132, 255);
+  color: white;
 }
 
 .icon {
   height: 28px;
+  margin-top: 1vmin;
+}
+
+.page-links > li {
+  margin: 0 2vmin;
 }
 
 .header, .about, .contact {
@@ -108,7 +113,7 @@ a {
   height: 180px;
   border-radius: 50%;
   margin: 3vmin 8vmin;
-  border: 1.5px solid rgba(0, 132, 255, 0.804);
+  border: 2px solid rgba(0, 132, 255, 0.804);
 }
 
 .description > h3 {
@@ -167,6 +172,10 @@ a {
   border: 1px solid rgba(0, 132, 255, 0.804);
 }
 
+.project-container > a {
+  color: rgb(0, 132, 255);
+}
+
 .project-container > p {
   margin: 1vmin 2vmin 0 2vmin;
   text-align: justify;
@@ -181,6 +190,7 @@ form {
   justify-content: space-evenly;
   height: 300px;
   width: 400px;
+  margin: 0;
 }
 
 form > input, textarea {
@@ -207,4 +217,8 @@ button {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
   cursor: pointer;
+}
+
+.icon-links > a {
+  margin: 0 1vmin;
 }
