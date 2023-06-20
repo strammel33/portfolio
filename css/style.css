@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
@@ -36,38 +37,39 @@ li {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: calc(2rem + 1vw);
   font-weight: 600;
   letter-spacing: .1em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: calc(1.5rem + 1vw);
   letter-spacing: .1em;
   margin: 2vmin;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: calc(1rem + 1vw);
   font-style: italic;
   letter-spacing: .1em;
 }
 
 h4 {
-  font-size: 1.5em;
-  letter-spacing: .1em;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
   font-weight: 300;
   margin: 1vmin;
 }
 
 p {
-  font-size: 1em;
+  font-size: calc(.5rem + 1vw);
   letter-spacing: .07em;
   font-weight: 300;
   text-align: justify;
 }
 
 a {
+  font-size: calc(.8rem + .5vw);
   text-decoration: none;
   color: white;
 }
@@ -82,7 +84,7 @@ a {
 }
 
 .header, .about, .contact {
-  height: 25%;
+  height: 20%;
 }
 
 .about, .projects, .contact, form {
@@ -95,6 +97,7 @@ a {
 .about {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -110,9 +113,9 @@ a {
 }
 
 .image > img {
-  height: 180px;
+  height: 45vw;
   border-radius: 50%;
-  margin: 3vmin 8vmin;
+  margin: 1vmin 3vmin;
   border: 2px solid rgba(0, 132, 255, 0.804);
 }
 
@@ -121,12 +124,12 @@ a {
 }
 
 .description > h3, p {
-  margin: 0 8vmin 3vmin 0;
+  margin: 0 3vw;
 }
 
 .projects {
   position: relative;
-  height: 60%;
+  min-height: 60vw;
   width: 100%;
 }
 
@@ -221,4 +224,29 @@ button {
 
 .icon-links > a {
   margin: 0 1vmin;
+}
+
+@media only screen and (min-width: 768px) {
+  .header, .about, .contact {
+    height: 25%;
+  }
+
+  .image > img {
+    margin: 3vmin 8vmin;
+    height: 30vw;
+  }
+
+  .description > h3, p {
+    margin: 0 8vmin 3vmin 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
 }
