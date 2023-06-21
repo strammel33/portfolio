@@ -110,6 +110,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   background-image: url(/assets/background.jpg);
+  background-size: cover;
 }
 
 .header > h1, h3 {
