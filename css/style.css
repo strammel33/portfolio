@@ -83,8 +83,12 @@ a {
   margin: 0 2vmin;
 }
 
-.header, .about, .contact {
+.header, .about {
   height: 20%;
+}
+
+.contact {
+  height: 15%;
 }
 
 .about, .projects, .contact, form {
@@ -192,7 +196,7 @@ a {
 form {
   justify-content: space-evenly;
   height: 300px;
-  width: 400px;
+  min-width: 40vw;
   margin: 0;
 }
 
