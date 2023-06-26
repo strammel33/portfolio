@@ -74,7 +74,7 @@ a {
   color: white;
 }
 
-.icon {
+.icon-link {
   height: 28px;
   margin-top: 1vmin;
 }
@@ -124,11 +124,11 @@ a {
   border: 2px solid rgba(0, 132, 255, 0.804);
 }
 
-.description > h3 {
+.about-me > h3 {
   color: rgb(0, 132, 255);
 }
 
-.description > h3, p {
+.about-me > h3, p {
   margin: 0 3vw;
 }
 
@@ -178,6 +178,10 @@ a {
   margin: 1vmin;
   border-radius: 2vmin;
   border: 1px solid rgba(0, 132, 255, 0.804);
+}
+
+.icon {
+  height: 48;
 }
 
 .project-container > a {
@@ -238,10 +242,10 @@ button {
 
   .image > img {
     margin: 3vmin 8vmin;
-    height: 30vw;
+    height: 25vw;
   }
 
-  .description > h3, p {
+  .about-me > h3, p {
     margin: 0 8vmin 3vmin 0;
   }
 
