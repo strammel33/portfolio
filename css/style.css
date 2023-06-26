@@ -109,7 +109,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/assets/background.jpg);
+  background-image: url(/assets/images/background.jpg);
   background-size: cover;
 }
 
@@ -140,7 +140,7 @@ a {
 
 .projects::after{
   content: "";
-  background-image: url(/assets/background2.jpg);
+  background-image: url(/assets/images/background2.jpg);
   background-size: cover;
   opacity: 0.4;
   position: absolute;
@@ -173,15 +173,28 @@ a {
   box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.446);
 }
 
-.project-container > img {
+.overlay-container > img {
   width: 95%;
   margin: 1vmin;
   border-radius: 2vmin;
   border: 1px solid rgba(0, 132, 255, 0.804);
 }
 
-.icon {
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons > img {
   height: 48;
+  margin: 5px;
 }
 
 .project-container > a {
