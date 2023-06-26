@@ -126,12 +126,12 @@ a {
   border: 2px solid rgba(0, 132, 255, 0.804);
 }
 
-.about-me > h3 {
-  color: rgb(0, 132, 255);
-}
-
 .about-me > h3, p {
   margin: 0 3vw;
+}
+
+.about-me > h3 {
+  color: rgb(0, 132, 255);
 }
 
 .projects {
@@ -166,8 +166,8 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
-  max-width: 350px;
+  height: 450px;
+  max-width: 375px;
   margin: 5vmin;
   background-color: rgba(1, 16, 50, 0.705);
   border-radius: 3vmin;
@@ -225,9 +225,9 @@ a {
 }
 
 .project-container > p {
-  margin: 1vmin 2vmin 0 2vmin;
+  margin: 0 2vmin 0 2vmin;
   text-align: justify;
-  font-size: .8em;
+  font-size: calc(.8rem + .3vw)
 }
 
 .git-link {
