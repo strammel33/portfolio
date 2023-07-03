@@ -12,6 +12,30 @@ body {
   color: white;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 104, 202, 0.819);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 1vmin;
+}
+
+li {
+  margin: 0 1vmin;
+}
+
 h1 {
   font-size: calc(2rem + 1vw);
   font-weight: 600;
@@ -55,42 +79,14 @@ a {
   color: white;
 }
 
-.topnav {
-  overflow: hidden;
-  position: relative;
-  background-color: rgba(0, 132, 255, 0.827);
-}
-
-.topnav #page-links {
-  display: none;
-}
-
-.topnav a {
-  color: white;
-  padding: 8px 0 8px 8px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  padding: 8px;
-  /* height: 28px; */
-}
-
-.active {
-  display: flex;
-  color: white;
-}
-
 .icon-link {
   height: 28px;
+  margin-top: 1vmin;
 }
 
+.page-links > li {
+  margin: 0 2vmin;
+}
 
 .header, .about, .contact {
   height: 15%;
@@ -274,11 +270,6 @@ button {
 
 .icon-links > a {
   margin: 0 1vmin;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .overlay-container:hover .project-img {
