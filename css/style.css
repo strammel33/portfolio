@@ -78,7 +78,7 @@ a {
 }
 
 .icon-link {
-  height: 48px;
+  height: 32px;
   margin-top: 1vmin;
 }
 
@@ -178,6 +178,11 @@ a {
   position: relative;
 }
 
+.project-container > h3 {
+  margin-top: 1vmin;
+  letter-spacing: .2em;
+}
+
 .project-img {
   width: 95%;
   margin: 2.5%;
@@ -229,8 +234,16 @@ a {
   font-size: calc(.8rem + .5vw)
 }
 
-.git-link {
-  margin: 1vmin 1vmin 1vmin auto;
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.website-icon {
+  border: 2px solid rgba(94, 177, 255, 0);
+  border-radius: 50%;
 }
 
 form {
@@ -286,9 +299,18 @@ h4:hover {
   background-color: rgba(254, 255, 255, 0.233);
 }
 
+.website-icon:hover {
+  border: 2px solid rgb(250, 251, 251);
+}
+
 @media only screen and (min-width: 768px) {
   .header, .about, .contact {
     height: 25%;
+  }
+
+  .icon-link {
+    height: 48px;
+    margin-top: 1vmin;
   }
 
   .page-links > li > a {
