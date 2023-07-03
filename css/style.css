@@ -227,7 +227,7 @@ a {
 .project-container > p {
   margin: 0 2vmin 0 2vmin;
   text-align: justify;
-  font-size: calc(.8rem + .3vw)
+  font-size: calc(.8rem + .5vw)
 }
 
 .git-link {
@@ -247,6 +247,7 @@ form > input, textarea {
   border: 2px solid rgba(0, 132, 255, 0.804);
   border-radius: 1vmin;
   font-family: 'Titillium Web', sans-serif;
+  font-size: calc(.8rem + .5vw);
   padding: 2vmin;
   box-shadow: 4px 4px 5px 1px rgba(0, 132, 255, 0.254);
 }
@@ -304,5 +305,9 @@ h4:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  .project-container {
+    max-width: 40%;
   }
 }
