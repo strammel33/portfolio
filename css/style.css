@@ -56,12 +56,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: .1rem;
   font-weight: 300;
   margin: 1vmin;
-  padding: .2vmin 4vmin;
+  padding: .2vmin 2vmin;
+  color: rgba(0, 132, 255, 0.804); 
   border: 1.5px solid rgba(0, 132, 255, 0.804);
+  border-radius: 10px;
   background-color: rgba(254, 255, 255, 0.146);
   transition: all .5s ease;
 }
@@ -238,7 +240,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
 }
 
 .website-icon {
