@@ -256,7 +256,7 @@ a {
 
 form {
   justify-content: space-evenly;
-  height: 350px;
+  height: 450px;
   min-width: 50vw;
   margin: 0;
 }
@@ -354,7 +354,7 @@ h4:hover, button:hover {
   }
 
   .project-container {
-    height: 50%;
+    height: 600px;
     max-width: 35%;
   }
 }
