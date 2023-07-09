@@ -146,6 +146,10 @@ a {
   width: 100%;
 }
 
+.projects > h2 {
+  margin-top: 12vmin;
+}
+
 .projects::after{
   content: "";
   background-image: url(/assets/images/background2.jpg);
@@ -320,7 +324,7 @@ h4:hover, button:hover {
 
 @media only screen and (min-width: 768px) {
   .header, .about, .contact {
-    height: 25%;
+    height: 26%;
   }
 
   .website-icon {
