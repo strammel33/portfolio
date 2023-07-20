@@ -79,6 +79,10 @@ a {
   text-decoration: none;
 }
 
+.topnav .icon {
+  display: none;
+}
+
 .icon-link {
   height: 32px;
   margin-top: 1vmin;
@@ -320,6 +324,47 @@ h4:hover, button:hover {
 
 .website-icon:hover {
   border: 2px solid rgb(250, 251, 251);
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav {
+    height: 10vmin;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon, a.icon-link{
+    float: right;
+    display: block;
+  }
+
+  .icon-link {
+    margin: 0;
+    height: 28px;
+  }
+
+  .topnav-responsive, .page-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .social-links {
+    margin: 1vmin 0 0 0;
+  }
+
+  .topnav-responsive a {
+    padding: 1vmin;
+  }
+
+  .topnav-responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {

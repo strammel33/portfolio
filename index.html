@@ -7,16 +7,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Suzanne Trammel's Portfolio</title>
 </head>
 <body>
-  <nav>
-    <ul>
+  <nav class="topnav" id="myTopNav">
+    <ul class="social-links">
       <li>
-          <a href="https://www.linkedin.com/in/suzanne-trammel/">
+        <a href="https://www.linkedin.com/in/suzanne-trammel/">
           <img 
             class="icon-link"
             src="./assets/icons/linkedin.png" 
@@ -26,7 +27,7 @@
         </a>
       </li>
       <li>
-                <a href="https://github.com/strammel33">
+        <a href="https://github.com/strammel33">
           <img 
             class="icon-link"
             src="./assets/icons/github.png" 
@@ -44,6 +45,10 @@
       <li>
         <a href="./assets/Suzanne Trammel Resume.pdf" target="blank">RESUME</a>
       </li>
+      <li>
+        <a href="javascript:void(0);" class="icon" onClick="toggleNav()">
+          <i class="fa fa-bars"></i>
+        </a></li>
     </ul>
   </nav>
   <main>

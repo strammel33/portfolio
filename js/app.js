@@ -1,8 +1,8 @@
-// function toggleNav() {
-//   const links = document.getElementById('page-links')
-//   if (links.style.display === "block") {
-//     links.style.display = "none"
-//   } else {
-//     links.style.display = "block"
-//   }
-// }
+function toggleNav() {
+  const nav = document.getElementById("myTopNav")
+  if (nav.className === "topnav") {
+    nav.className += "-responsive"
+  } else {
+    nav.className = "topnav"
+  }
+}
