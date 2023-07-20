@@ -1,6 +1,7 @@
 ## 😎 Check out my portfolio [HERE](https://suzanne-trammel-portfolio.netlify.app/)! 🎉
 ***
 ### Technologies Used:
+* JavaScript
 * HTML
 * CSS
 * Git
