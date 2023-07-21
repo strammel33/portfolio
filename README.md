@@ -1,4 +1,9 @@
-## 😎 Check out my portfolio [HERE](https://suzanne-trammel-portfolio.netlify.app/)! 🎉
+## 😎 Check out my portfolio [HERE](https://suzanne-trammel-portfolio.netlify.app/)! 🎉 
+###### (And don't forget to shoot me a message via the contact form 📬)
+***
+<br>
+
+![Suzanne's Portfolio](./assets/images/portfolio.png)
 ***
 ### Technologies Used:
 * JavaScript
