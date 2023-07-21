@@ -94,7 +94,7 @@ a {
   font-size: calc(1rem + .5vw);
 }
 
-.header, .about, .contact {
+.header, .about {
   height: 20%;
 }
 
@@ -368,8 +368,12 @@ h4:hover, button:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .header, .about, .contact {
+  .header, .about {
     height: 26%;
+  }
+
+  .contact {
+    height: 18%;
   }
 
   .website-icon {
